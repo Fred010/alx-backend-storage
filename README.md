@@ -1,38 +1,43 @@
-# MySQL Advanced Readme
+# SQL Projects
 
-### Project Overview
-This project focuses on advanced MySQL concepts, aiming to enhance your understanding of database design, optimization, and procedural programming.
+This repo will contain database-related projects
 
-### Key Concepts
-* Constraints: Enforce data integrity and consistency.
-* Indexes: Optimize query performance by creating efficient data access paths.
-* Stored Procedures: Reusable code blocks for modularizing database operations.
-* Functions: Return specific values based on input parameters.
-* Views: Virtual tables derived from existing tables, providing a different perspective on data.
-* Triggers: Automatically execute code in response to specific database events.
+When to Use SQL vs. NoSQL
 
-Project Structure
-README.md: This file provides an overview of the project.
-SQL Files: Each SQL file contains specific queries or procedures related to the tasks.
+### SQL:
+* Relational data with well-defined relationships
+* Complex queries and reporting
+* ACID compliance (Atomicity, Consistency, Isolation, Durability)
 
-### Tasks
-* Task 1: Create tables with appropriate constraints.
-* Task 2: Optimize query performance using indexes.
-* Task 3: Implement stored procedures for common database operations.
-* Task 4: Define functions to calculate derived values.
-* Task 5: Create views to present data in different formats.
-* Task 6: Implement triggers to enforce business rules or automate tasks.
+### NoSQL:
+* Large datasets with unstructured or semi-structured data
+* High performance and scalability
+* Real-time analytics
+* Flexible data models
 
-### Requirements
-* Ubuntu 18.04 LTS
-* MySQL 5.7
-* SQL knowledge
-* Understanding of database design principles
+Common SQL and NoSQL Databases
+### SQL:
+* MySQL
+* PostgreSQL
+* Oracle
+* SQL Server
+* SQLite
 
-### Submission Guidelines
-* File Naming: Adhere to the specified naming conventions.
-* Comments: Include clear comments in your SQL code to explain the logic.
-* Formatting: Maintain consistent formatting and indentation.
-* Testing: Thoroughly test your code to ensure it meets the requirements.
-* Submission: Submit all required files as specified by your instructor.
+### NoSQL:
+* MongoDB
+* Cassandra
+* Redis
+* DynamoDB
+* Couchbase
+
+## Example Projects
+### SQL Project: E-commerce Database
+* Create tables for customers, products, orders, and order items.
+* Implement relationships between tables using foreign keys.
+* Write SQL queries to retrieve customer information, product details, and sales data.
+
+### NoSQL Project: Social Media Platform
+* Store user profiles, posts, comments, and likes in a document-based NoSQL database.
+* Implement features like user feeds, search, and notifications.
+* Handle large volumes of data and real-time updates.
 
