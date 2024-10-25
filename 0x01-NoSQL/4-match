@@ -1,0 +1,2 @@
+// Lists all matches in the collection school with name
+db.school.find({ name: "Holberton school" })
