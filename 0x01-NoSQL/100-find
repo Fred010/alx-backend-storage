@@ -1,2 +1,6 @@
-// list all documents in a collection
-db.school.find({ "name": { $regex: "^Holberton", $options: "i" } }).forEach(printjson);
+// lists all documents with name starting by Holberton in the collection school
+
+db.school.find(
+    { "name": { $regex: "^Holberton", $options: "i" } },
+    { "name": 1 }  // This projection limits the output to only `_id` and `name`
+).forEach(printjson);
